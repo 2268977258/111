@@ -1,23 +1,23 @@
-print(‘*’ * 10 + ‘10’)//用‘*‘来输出多个重复字符串和用’+‘来连接字符串和变量
+print('*' * 10 + '10') #用‘*‘来输出多个重复字符串和用’+‘来连接字符串和变量
 
-print(“price”) //输出price
-print(price)//输出变量price的值
+print("price") #输出price
+print(price) #输出变量price的值
 
-Print（’‘‘
+Print（'''
 你好！
 快去卷吧。
-’’‘ ）//用三引号来输出多行内容
+''' ）#用三引号来输出多行内容
 
-course = ‘python’
-Print（course[0:3]）//用索引符输出 结果为 pyt
+course = 'python'
+Print（course[0:3]）#用索引符输出 结果为 pyt
 
-Name = ‘abb’
-First = ’his name is‘ + Name
-Second = f’his name is {Name}‘//first和second定义的是一样的字符串，用f置于字符串前，用{}框住变量
+Name = 'abb'
+First = 'his name is' + Name
+Second = f'his name is {Name}' #first和second定义的是一样的字符串，用f置于字符串前，用{}框住变量
 
 course = 'Python'
-print(len(course))//测量字符串的长度
-print(course.upper())//方法 用于特定对象如字符串或整数之类的非通用函数 称为方法 变量名.函数名（）如course.upper（） 
-//upper lower find replace等为字符串的方法
+print(len(course)) #测量字符串的长度
+print(course.upper()) '''方法 用于特定对象如字符串或整数之类的非通用函数 称为方法 变量名.函数名（）如course.upper（） 
+upper lower find replace等为字符串的方法'''
 
-'th' in course//判断某段字符是否在字符串中存在
+'th' in course #判断某段字符是否在字符串中存在
