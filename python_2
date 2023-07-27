@@ -8,3 +8,5 @@ elif 条件2 and 条件3:
   print('内容4')
 else:
  print('内容5')
+
+#快速更改变量名字：右键点击变量名，选择Refactor,选择Rename,从而不必用笨办法改变量名
