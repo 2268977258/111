@@ -1,1 +1,10 @@
 import math #引入数学模块 使用round()等数学函数 round用于四舍五入
+
+if 条件1:
+  print('内容1') #这是python条件语句的格式
+  print('内容2') #不用花括号(C语言)而是用缩进来表示执行语句
+elif 条件2:
+  print('内容3')
+  print('内容4')
+else:
+ print('内容5')
