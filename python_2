@@ -10,3 +10,12 @@ else:
  print('内容5')
 
 #快速更改变量名字：右键点击变量名，选择Refactor,选择Rename,从而不必用笨办法改变量名
+
+while 条件1:
+  input('内容1')    #这是python的while循环语句格式
+  i += 1
+  if 条件2:
+    print('内容2') 
+    break          #python也使用break来打破循环(没有;)
+else:
+  print('内容2')   #如果不满足条件1而结束循环，则执行else语句
