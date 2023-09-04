@@ -5,3 +5,9 @@ student = {
     "本科生": True,
 } #这是词典 相当于结构型数组 
 student["性别"] = "男" #字典里面的键(key)可以随意添加
+
+def say_hello(first_name,last_name)    #这是定义函数的格式
+    print(f'Hello {last_name} {first_name}') #定义一个函数首先要缩进，其次后面要空两行
+
+
+say_hello(last_name=Li,first_name=Zhifan) #不记得参数的顺序时可以像这样使用关键字来输入参数，这样就不用管参数顺序了
