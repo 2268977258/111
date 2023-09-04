@@ -16,11 +16,10 @@ say_hello(last_name=Li, first_name=Zhifan)    #不记得参数的顺序时可以
 class Person:    #这是在创建一个类，一个类中包含了许多方法，类近似于一个新的数据类型,类的名字一般不含'_'
     def __init__(self, name,age):    #这是一个构造函数，会自动调用以初始化类
         self.name = name
-        self.age = int(age)    #定义函数(方法)时后面空两行
-
+        self.age = int(age)    #这里空一行
 
     def talk(self, word):
-        print(f'{self.age}-year-old {self.name} said:{word}')
+        print(f'{self.age}-year-old {self.name} said:{word}')    #这里后面空两行
 
 
 kid_1 = Person(Loopy, 3)    #使用构造函数'__init__'初始化类
