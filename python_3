@@ -6,9 +6,22 @@ student = {
 } #这是词典 相当于结构型数组 
 student["性别"] = "男" #字典里面的键(key)可以随意添加
 
-def say_hello(first_name,last_name)    #这是定义函数的格式
+def say_hello(first_name, last_name)    #这是定义函数的格式
     print(f'Hello {last_name} {first_name}') 
     return Ture    #定义一个函数首先要缩进，其次后面要空两行
 
 
-say_hello(last_name=Li,first_name=Zhifan)    #不记得参数的顺序时可以像这样使用关键字来输入参数
+say_hello(last_name=Li, first_name=Zhifan)    #不记得参数的顺序时可以像这样使用关键字来输入参数
+
+class Person:    #这是在创建一个类，一个类中包含了许多方法，类近似于一个新的数据类型,类的名字一般不含'_'
+    def __init__(self, name,age)    #这是一个构造函数，会自动调用以初始化类
+        self.name = name
+        self.age = int(age)    #定义函数(方法)时后面空两行
+
+
+    def talk(self, word)
+        print(f'{self.age}-year-old {self.name} said:{word}')
+
+
+kid_1 = Person(Loopy, 3)    #使用构造函数'__init__'初始化类
+kid_1.talk('I like cookies!')    #调用方法'talk'
